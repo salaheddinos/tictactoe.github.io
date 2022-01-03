@@ -6,11 +6,6 @@ let btnClose = document.querySelector("#btn-close");
 document.getElementById("newgame").style.display = "none";
 document.getElementById("NewGame").style.display = "none";
 
-
-// while (true) {
-//     if ()
-// }
-
 // Empty cases
 function empty_boxes(board) {
     let emptyBoxesIndx = [];
@@ -158,6 +153,7 @@ NewGame.addEventListener("click", ()=>{
     for (let box of board) {
         if (box.innerText !== "") {
             box.innerText = "";
+            document.getElementById("NewGame").style.display = "none";
         }
     }
 })
