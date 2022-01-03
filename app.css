@@ -1,0 +1,117 @@
+body {
+    /* background-color: rgb(236, 226, 182); */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMTIExdjkuWMvfL8nsxCSykUXjL97Gq2bCI5vHgjlr2brDQm5sarHIt9kXxh8z8pvVTrc&usqp=CAU);
+}
+
+#board {
+    max-width: 80%;
+    /* border: black solid 1px; */
+    margin-top: 10%;
+    background-image: url(https://s3.envato.com/files/323827874/light%20wood%20background.jpg);
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(17, 4, 165);
+}
+
+#scores {
+    max-width: 80%;
+}
+
+#playagain {
+    max-width: 80%;
+}
+
+#Restart {
+    justify-content: center;
+    display: flex;
+}
+
+#outcome {
+    font-size: medium;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+}
+
+#newgame, #NewGame {
+    background-color: blueviolet;
+    width: 80%;
+    font-size: larger;
+    font-family: monospace;
+    justify-content: center;
+    margin-top: 5px;
+    animation-name: shake-with-delay;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake-with-delay {
+    from, 16%, to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    1.6%, 4.8%, 8%, 11.2%, 14.4% {
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0);
+    }
+    3.2%, 6.4%, 9.6%, 12.8% {
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0);
+    }
+}
+
+#MyScore, #CompScore, #TiesScore {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#MyScore {
+    color: green;
+}
+
+#CompScore {
+    color: rgb(128, 0, 0);
+}
+
+#TiesScore {
+    color: rgba(64, 84, 194, 0.973);
+}
+
+#Myscoretx, #Comscoretxt, #Tiestxt {
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+.row {
+    height: 100px;
+}
+
+#frow, #srow {
+    border-bottom: black solid 3px;
+}
+
+.col-4 {
+    border-right: black solid 3px;
+}
+
+.col-4:nth-child(3) {
+    border-right: none;
+}
+
+#lastrow {
+    border-bottom: none;
+
+}
+
+
+
+span {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 3.5em;
+}
+
