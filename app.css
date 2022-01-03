@@ -6,7 +6,7 @@ body {
 #board {
     max-width: 80%;
     /* border: black solid 1px; */
-    margin-top: 10%;
+    margin-top: 5%;
     background-image: url(https://s3.envato.com/files/323827874/light%20wood%20background.jpg);
 }
 
@@ -114,4 +114,5 @@ span {
     margin-top: 5px;
     font-size: 3.5em;
 }
+
 
