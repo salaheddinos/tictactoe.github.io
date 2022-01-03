@@ -17,6 +17,7 @@ h1 {
 
 #scores {
     max-width: 80%;
+    text-align: center;
 }
 
 #playagain {
@@ -63,8 +64,10 @@ h1 {
 }
 
 #MyScore, #CompScore, #TiesScore {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 500;
+    display: inline-block;
+    
 }
 
 #MyScore {
@@ -80,9 +83,9 @@ h1 {
 }
 
 #Myscoretx, #Comscoretxt, #Tiestxt {
-    font-size: large;
+    font-size: medium;
     font-weight: bold;
-    
+    display: inline-block;
 }
 
 .row {
